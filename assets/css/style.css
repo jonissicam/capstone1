@@ -230,17 +230,17 @@ ul{
 
 	}
 	#enter-text{
-		font-size: 55px;
+		font-size: 50px;
 	}
 	#enter-btn{
-	font-size: 40px;
+	font-size: 20px;
 	position: absolute;
 	top: 80%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	display: block;
 	margin:0 auto;
-	min-width: 150px;
+	min-width: 70px;
 	min-height: 30px;
 	}
 	#top5carousel{
@@ -407,10 +407,11 @@ ul{
 	#enter-text{
 		margin: 0 auto;
 		padding: 0;
-		font-size: 110px;
+		font-size: 120px;
 	}
 	#enter-btn{
-	font-size: 40px;
+		background-color: rgba(0,0,0,.4);
+	font-size: 55px;
 	position: absolute;
 	top: 80%;
 	left: 50%;
