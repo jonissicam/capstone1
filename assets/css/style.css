@@ -50,7 +50,6 @@ html{
 
 
 .drop .active > .btn-font {
-	width: 100%;
 	background-color: transparent;
 	color: 	#F8F8FF;/*snow*/
 }
