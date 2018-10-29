@@ -39,9 +39,19 @@ html{
 
 
 /*headtab*/
-.btn-font{
+#drop > .tabs > .btn-font{
+	background-color: transparent;
 	font-family: 'Boogaloo', cursive;
 }
+
+
+#drop .active > .btn-font {
+	color: yellow;
+}
+
+
+
+
 #carousel-home{
 	background-image: url("../images/home/static.gif");
 	background-attachment: fixed;
@@ -132,10 +142,12 @@ html{
 
 a:hover, /* OPTIONAL*/
 a:focus
-{
+{	
 	text-decoration: none;
 	color: #F8F8FF;/*snow*/
 }
+
+
 
 .footer-hover:hover{
 	color: #DC143C;/*crimson*/
