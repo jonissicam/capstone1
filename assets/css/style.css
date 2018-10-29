@@ -39,14 +39,20 @@ html{
 
 
 /*headtab*/
-#drop > .tabs > .btn-font{
+.btn-font{
+	background-color: transparent;
+	font-family: 'Boogaloo', cursive;
+}
+.drop > .tabs > .btn-font{
 	background-color: transparent;
 	font-family: 'Boogaloo', cursive;
 }
 
 
-#drop .active > .btn-font {
-	color: yellow;
+.drop .active > .btn-font {
+	width: 100%;
+	background-color: transparent;
+	color: 	#F8F8FF;/*snow*/
 }
 
 
