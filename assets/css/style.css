@@ -150,9 +150,8 @@ a:focus
 {     
 	background-color: rgba(0,0,0,.5);  
 }
-ul{
-	z-index: 2000;
-}
+
+
 /*mobile*/
 @media only screen and (max-width: 425px) 
 {
@@ -233,6 +232,8 @@ ul{
 		font-size: 50px;
 	}
 	#enter-btn{
+		background-color: rgba(0,0,0,.6);
+		border: 0;
 	font-size: 20px;
 	position: absolute;
 	top: 80%;
@@ -410,7 +411,8 @@ ul{
 		font-size: 120px;
 	}
 	#enter-btn{
-		background-color: rgba(0,0,0,.4);
+		background-color: rgba(0,0,0,.6);
+		border: 0;
 	font-size: 55px;
 	position: absolute;
 	top: 80%;
@@ -583,7 +585,9 @@ ul{
 		font-size: 110px;
 	}
 	#enter-btn{
-	font-size: 40px;
+		background-color: rgba(0,0,0,.6);
+		border: 0;
+	font-size: 60px;
 	position: absolute;
 	top: 80%;
 	left: 50%;
@@ -591,7 +595,7 @@ ul{
 	display: block;
 	margin:0 auto;
 	min-width: 150px;
-	min-height: 30px;
+	min-height: 20px;
 	}
 	#top5carousel{
 	margin: 0 auto;
